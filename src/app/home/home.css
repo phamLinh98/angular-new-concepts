@@ -1,0 +1,11 @@
+/* Thử cái này trước (nếu bạn muốn CSS chỉ áp dụng cho <p> trong Home) */
+:host p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hoặc thử cái này (nếu bạn muốn CSS áp dụng cho tất cả <p> tags trong ứng dụng) */
+p {
+  margin: 0;
+  padding: 0;
+}
